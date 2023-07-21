@@ -1,0 +1,90 @@
+body{
+    background: -webkit-gradient(linear, left top, right top, from(#eceff1), to(#1f1e1e));
+    background: url(src/imagem/fundo.webp);
+
+}
+header{
+    font-size: small;
+    text-align: center;
+    color: rgb(243, 242, 238);
+}
+p{
+    text-align: left;
+    font-size: 16px;
+}
+.pagina{
+    margin: 50px;
+    font-size: 5em;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(247, 246, 242);
+
+    background-size: cover;
+}
+#titulo{
+    padding-left: 10px;
+}
+.conteudo {
+    text-align: center;
+    background-color: rgb(3, 4, 80);
+    color: white;
+    margin: 0px 0px 20px 0px ;
+    text-transform: uppercase;
+}
+section {
+    padding: 10px ;
+    margin: 50px;
+}
+article {
+    margin: 0px 0px 0px 210px;
+    padding: 10px;
+    background-color: #dfe9f3;
+    border: 1.3px solid rgb(20, 65, 212);
+}
+nav{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+.menu{
+    background-color: rgb(5, 5, 14);
+    padding: 6px;
+    margin: 0;
+    
+}
+.s_menu{
+    list-style: none;
+   
+}
+.s_menu{
+    display: block;
+    color: #163ce7;
+    text-decoration: none;
+    padding: 15px 10px 15px 10px;
+    background-color: #edf4f8;
+    margin-bottom: 2px;
+    font: 14px verdana, arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+a:visited{
+    color: #020207;
+}
+a:hover{
+    color: #0a0dd4;
+    background-color: #c1d410;
+}
+img{
+    width: 265px;
+    float: left;
+}
+footer{
+    margin: 50px;
+    background-color: blue;
+    color: white;
+}
+#textorodape{
+    text-align: center;
+    font-weight: bold;
+}
